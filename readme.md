@@ -42,7 +42,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 ```
 
 ```
-One is an image (an element), and the other is a "div," which can be used to contain/divide things such as elements.
+One is an image (usually a child element), and the other is a "div," which can be used to contain/divide things such as elements, and can also exsist as a child element.
 ```
 
 ---
@@ -67,7 +67,7 @@ One is an image (an element), and the other is a "div," which can be used to con
 ```
 
 ```
-The first two methods choose to declare style information within the html document which is not as efficient as the third method of using an external style sheet which pulls style information from a separate css file.
+The first two methods choose to declare style information within the html document which is not as efficient as the third method of using an external style sheet which pulls style information from a separate css file (also increases the flexibility you have with the css you've created).
 ```
 
 2.) Below are some different CSS selectors. Use CSS comments to describe what each selector will do.
@@ -93,7 +93,7 @@ This assigns a font size of 18 pixels to the text in the paragraph in the header
   bottom: 0;
 }
 /*
-This assigns any elements in the footer an absolute position (defined by the page) and not other page elements.
+This assigns any elements in the footer an absolute position (defined by the page) and not other page elements, and also states the footer should be spaced 0 away from the bottom.
 */
 
 
@@ -103,11 +103,18 @@ This assigns any elements in the footer an absolute position (defined by the pag
   width: 100%;
 }
 /*
-This defines a css class of "splash-image" assigns it a background image, size, and width of 100% of the page. 
+This defines a css class of "splash-image" assigns it a background image, size, and width of 100% of the page. And "background-size: cover" scales the background image to be as large as possible so that the background area is completely covered by the background image. 
+*/
 
 .ninja:hover {
   display: none;
   color: black;
 }
+/*
+ This code tells the css to "display:none" on an object when the mouse is hovering over that object.
+*/
 ```
+
+
+
 
